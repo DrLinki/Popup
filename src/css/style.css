@@ -1,0 +1,56 @@
+/* Polices, couleurs et positions de base de la page 
+* 🚫 NE PAS MODIFIER CE FICHIER ‼️ 
+**/
+*{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+body{
+    margin:0;
+}
+a,
+a:visited,
+a:hover,
+a:visited:visited{
+    text-decoration: none;
+}
+h1{
+    color:#014;
+}
+h2{
+    color:#028;
+}
+h3{
+    color:#04f;
+}
+h4, h5, h6{
+    color:#08f;
+}
+
+/* style de base du HEADER */
+#header{
+    width:100%;
+    height:20px;
+    padding:10px 0;
+    background-color:#04d;
+}
+#header .lien,
+#header .lien:visited{
+    margin:0px;
+    padding:10px 20px;
+    font-weight:bold;
+    background-color:#04d;
+    color:#fff;
+}
+#header .lien:hover,
+#header .lien:visited:hover{
+    background-color:#08f;
+    color:#fff;
+}
+
+/* Conteneur principal de la page */
+.content{
+    margin:auto;
+    width: 800px;
+    padding:20px;
+    max-width: calc(100% - 40px);
+}
